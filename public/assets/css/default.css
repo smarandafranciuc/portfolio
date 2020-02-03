@@ -1,0 +1,56 @@
+#processImage {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 80%;
+    height: 50%;
+}
+#contactImage {
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    width: 20%;
+    height: 60%;
+}
+#whoImage {
+    position: absolute;
+    top: 53%;
+    left: 0%;
+    width: 30%;
+    height: 25%;
+}
+#workImage {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 80%;
+    height: 48%;
+}
+
+#middleColumn {
+    width: 30%;
+    margin: 10% auto;
+}
+.workItem {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    position: relative;
+}
+.workItem img {
+    width: 100%;
+}
+.workItemText {
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 105%;
+    width: 100%;
+    font-family: monospace;
+}
+
+.videoPlayer {
+    width: 50%;
+    height: 50%;
+}
+
