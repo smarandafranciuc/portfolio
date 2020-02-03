@@ -98,3 +98,25 @@ body {
     width: 100%;
     overflow: hidden;
 }
+
+
+/*CONTACT*/
+#contactContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#contactText {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+#passportImage {
+    margin: 5% 25%;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+}
