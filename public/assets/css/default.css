@@ -1,3 +1,9 @@
+/* MISC */
+body {
+    margin: 0;
+}
+
+/* HOME PAGE */
 #processImage {
     position: absolute;
     top: 0%;
@@ -14,10 +20,20 @@
 }
 #whoImage {
     position: absolute;
-    top: 53%;
+    top: 52%;
     left: 0%;
     width: 30%;
     height: 25%;
+}
+#whoQuestionMark {
+    position: absolute;
+    bottom: 3%;
+    left: 7.5%;
+    height: 24%;
+    display: none;
+}
+#whoImage:hover {
+    filter: invert(100%);
 }
 #workImage {
     position: absolute;
@@ -26,7 +42,23 @@
     width: 80%;
     height: 48%;
 }
+#workImage:hover {
+    filter: drop-shadow(30px 30px 7px rgba(255, 219, 14, 0.767));
+}
+.blurry {
+    filter: blur(20px);
+}
+.flipVert {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: hue-rotate(90deg);
+}
+.blackify {
+    background-color: black;
+}
 
+
+/* FINISHED WORK */
 #middleColumn {
     width: 30%;
     margin: 10% auto;
@@ -49,8 +81,20 @@
     font-family: monospace;
 }
 
-.videoPlayer {
-    width: 50%;
-    height: 50%;
+/* PROCESS */
+#processVideoContainer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 33.33% 33.33% 33.33%;
 }
-
+.processVideoWrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.processVideo {
+    width: 100%;
+    overflow: hidden;
+}
