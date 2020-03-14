@@ -3,13 +3,19 @@ $(document).ready(function ()
     $("#whoButton").hover(
         function()
         {
-            // Show questionmark
-            $("#whoQuestionMark").show();
+            // Swap image source to altsource
+            var source = $("#whoImage").attr("src");
+            var altsource = $("#whoImage").attr("altsrc");
+            $("#whoImage").attr("src", altsource);
+            $("#whoImage").attr("altsrc", source);
         },
         function()
         {
-            // Hide questionmark
-            $("#whoQuestionMark").hide();
+            // Swap image source to altsource
+            var source = $("#whoImage").attr("src");
+            var altsource = $("#whoImage").attr("altsrc");
+            $("#whoImage").attr("src", altsource);
+            $("#whoImage").attr("altsrc", source);
         }
     );
 
@@ -44,14 +50,14 @@ $(document).ready(function ()
         function()
         {
             // Show drop shadow and make screen black
-            $("body").addClass("blackify");
+            $("body").addClass("whiteout");
             $("#home").find("a").hide();
             $("#workButton").show();
         },
         function()
         {
             // Reset home
-            $("body").removeClass("blackify");
+            $("body").removeClass("whiteout");
             $("#home").find("a").show();
         }
     );
