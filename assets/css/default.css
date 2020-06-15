@@ -20,17 +20,17 @@ body {
 }
 #whoImage {
     position: absolute;
-    top: 52%;
+    top: 56%;
     left: 0%;
-    width: 27%;
-    height: 48%;
+    width: 44%;
+    height: 41%;
 }
 
 #workImage {
     position: absolute;
     bottom: 0%;
     right: 0%;
-    width: 80%;
+    width: 55%;
     height: 48%;
 }
 #workImage:hover {
@@ -44,9 +44,10 @@ body {
     transform: scaleY(-1);
     filter: hue-rotate(90deg);
 }
-.whiteout {
+/*.whiteout {
     background-color: white;
 }
+*/
 
 
 /* FINISHED WORK */

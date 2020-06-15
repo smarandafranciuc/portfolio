@@ -50,14 +50,14 @@ $(document).ready(function ()
         function()
         {
             // Show drop shadow and make screen black
-            $("body").addClass("whiteout");
-            $("#home").find("a").hide();
+            /*$("body").addClass("whiteout");
+            $("#home").find("a").hide();*/
             $("#workButton").show();
         },
         function()
         {
             // Reset home
-            $("body").removeClass("whiteout");
+            /*$("body").removeClass("whiteout");*/
             $("#home").find("a").show();
         }
     );
