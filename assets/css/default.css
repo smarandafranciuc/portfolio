@@ -7,7 +7,6 @@ body {
 }
 
 /* HOME PAGE */
-/*
 #mind {
     position: absolute;
     top:0%;
@@ -31,7 +30,7 @@ body {
  * ----------------------------------------
  * animation flip-horizontal-bottom
  * ----------------------------------------
- 
+ */
  @-webkit-keyframes flip-horizontal-bottom {
     0% {
       -webkit-transform: rotateX(0);
@@ -52,7 +51,7 @@ body {
               transform: rotateX(-180deg);
     }
   }
-*/
+
 
 #processImage {
     position: absolute;
