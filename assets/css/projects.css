@@ -1,0 +1,42 @@
+/* generic */
+.project-text {
+    width: 700px;
+    margin: auto;
+    position: relative;
+
+    font-size: 24px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.project-image {
+    width: 100%;
+}
+body {
+    background-color: #FFFFFF;
+}
+.negative-margin {
+    margin-top: -200px;
+}
+
+
+
+/* different bodies */
+#body-policy-paul {
+    background-color: #DFDFDF;
+}
+#body-smartmakers {
+    background-color: #C8D5E8
+}
+
+
+
+/* merch blogs */
+#yellow-circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    transform: translate(-50%, -50%);
+}

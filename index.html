@@ -3,34 +3,253 @@
 <head>
     <title>Smaranda Franciuc</title>
     <link rel="stylesheet" href="./assets/css/default.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./assets/js/homeOnHover.js"></script>
+    <link rel="stylesheet" href="./assets/css/projectheaderandfooter.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="https://use.typekit.net/cvy3gjz.css">
-    <script src="unveilHover.js"defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/js/projectTiles.js"></script>
+    <script src="./assets/js/scrolltext.js"></script>
+    <script src="./assets/js/moveWithMouse.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+</head>
 </head>
 
-<body id="home">
+<body>
+    <div id="header">
+        <nav id="navbar">
+            <div class="navbar-item navbar-item-current">
+                <a>
+                    <div>home</div>
+                </a>
+            </div>
+            <div class="navbar-item">
+                <a class="scroll" href="index.html#projects">
+                    <div>work</div>
+                </a>
+            </div>
+            <div class="navbar-item">
+                <a href="contact.html">
+                    <div>contact</div>
+                </a>
+            </div>
+            <div class="navbar-item">
+                <a class="scroll" href="index.html#cv">
+                    <div>me</div>
+                </a>
+            </div>
+        </nav>
+    </div>
 
-    <a id="mind" href="process.html" onmouseover="flipCards()">
-        WATCH MY <br>
-        MIND UNVEIL
-    </a>
+    <div id="home">
+        <div class="home-grid">
+            <a class="home-tile scroll" href="index.html#cv">
+                <img class="home-tile-image" src="assets/img/img_home_cv.png">
+                <!-- <img id="background-star" src="assets/img/img_background_star.png"> -->
+            </a>
+            <a class="home-tile scroll" href="index.html#projects">
+                <img class="home-tile-image" src="assets/img/img_home_mywork.png">
+            </a>
+            <a class="home-tile" href="contact.html">
+                <img class="home-tile-image" src="assets/img/img_home_contact.png">
+                <img id="phone" src="assets/img/img_home_phone.png">
+            </a>
+            <a id="blue-circle-mouse-over" class="home-tile" href="process.html">
+                <img class="home-tile-image" src="assets/img/img_home_process.png">
+                <img id="blue-circle" src="assets/img/img_bluecircle.png">
+            </a>
+        </div>
+    </div>
 
-<!--
-    <a id="processButton" class="homeButton" href="process.html">
-        <img id="processImage" src="./assets/img/img_process.png">
-    </a>
-    <a id="contactButton" class="homeButton" href="contact.html">
-        <img id="contactImage" src="./assets/img/img_contact.png">
-    </a>
-    <a id="workButton" class="homeButton" href="finishedwork.html">
-        <img id="workImage" src="./assets/img/img_finishedwork.png">
-    </a>
-    <a id="whoButton" class="homeButton" href="whoami.html">
-        <img id="whoImage" src="./assets/img/img_normalname.png" altsrc="./assets/img/img_kablam.png">
-    </a>
--->
+    <div id="projects">
+        <div class="projects-header-wrapper">
+            <!-- <h1 class="projects-header">UI/UX/UI/UX/UI/UX/UI/UX/UI/UX/UI/UX/UI/UX/UI/UX/UI/UX/UI/UX/UI/UX/</h1> -->
+            <h1 class="projects-header">PROJECTS.PROJECTS.PROJECTS.PROJECTS.PROJECTS.PROJECTS.PROJECTS.PROJECTS.PROJECTS.PROJECTS.</h1>
+        </div>
+        <div class="project-grid">
+            <a class="project-tile" href="projects/tiktokevents.html" index=0>
+                <div>tiktok events</div>
+                <!-- <img src="assets/img/img_tiktokevents_tile.png"> -->
+            </a>
+            <a class="project-tile" href="projects/merchblogs.html" index=1>
+                <div>merch blogs</div>
+            </a>
+            <a class="project-tile" href="projects/policypaul.html" index=2>
+                <div>policy paul</div>
+            </a>
+            <a class="project-tile" href="projects/doit.html" index=-1>
+                <div>doit</div>
+            </a>
+            <a class="project-tile" href="projects/webshop.html" index=4>
+                <div>webshop</div>
+            </a>
+            <a class="project-tile" href="projects/smartmakersdelft.html" index=5>
+                <div>smartmakers delft</div>
+            </a>
+            <a class="project-tile" href="projects/merchwebsite.html" index=6>
+                <div>merch website</div>
+            </a>
+            <a class="project-tile" href="projects/designforemotion.html" index=7>
+                <div>design for emotion</div>
+            </a>
+        </div>
 
+        <!--<div class="double-spacer"></div>
+
+        <div class="projects-header-wrapper">
+            <h1 class="projects-header">IDENTITIES.IDENTITIES.IDENTITIES.IDENTITIES.IDENTITIES.IDENTITIES.IDENTITIES.IDENTITIES.</h1>
+        </div>
+        <div class="project-grid">
+            <a class="project-tile" href="projects/tiktokevents.html" index=8>
+                <div>monzi</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=9>
+                <div>lawhouse</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=10>
+                <div>open day iafd</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=11>
+                <div>solarpanels</div>
+            </a>
+        </div>
+
+        <div class="double-spacer"></div>
+
+        <div class="projects-header-wrapper">
+            <h1 class="projects-header">GRAPHICS.GRAPHICS.GRAPHICS.GRAPHICS.GRAPHICS.GRAPHICS.GRAPHICS.GRAPHICS.GRAPHICS.</h1>
+        </div>
+        <div class="project-grid">
+            <a class="project-tile" href="projects/tiktokevents.html" index=12>
+                <div>merch campaign</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=13>
+                <div>merch artworks</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=14>
+                <div>albelli campaign</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=15>
+                <div>morocco booklet</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=16>
+                <div>corbusier booklet</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=17>
+                <div>film pics illustrations</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=18>
+                <div>campulung filmfest</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=19>
+                <div>we were lovers</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=20>
+                <div>house of comings illustrations</div>
+            </a>
+            <a class="project-tile" href="projects/tiktokevents.html" index=21>
+                <div>the story of me</div>
+            </a>
+        </div>-->
+
+        <div class="double-spacer"></div>
+        <div class="double-spacer"></div>
+    </div>
+
+    <div id="project-hover-items">
+        <div class="project-hover-item project-hover-item-right" hidden index=0>
+            <img src="assets\img\img_tiktokevents_hover.png">
+        </div>
+        <div class="project-hover-item project-hover-item-right" hidden index=1>
+                <img src="assets\img\img_merchblogs_hover.png">
+        </div>
+        <div class="project-hover-item project-hover-item-left" hidden index=2>
+                <img src="assets\img\img_policypaul_hover.png">
+        </div>
+        <!-- <div class="project-hover-item project-hover-item-left" hidden index=3>
+                <img src="assets\img\img_doit_hover.png">
+        </div> -->
+        <div class="project-hover-item project-hover-item-right" hidden index=4>
+            <img src="assets\img\img_webshop_hover.png">
+        </div>
+        <div class="project-hover-item project-hover-item-right" hidden index=5>
+                <img src="assets\img\img_smartmakers_hover.png">
+        </div>
+        <div class="project-hover-item project-hover-item-left" hidden index=6>
+                <img src="assets\img\img_merchwebsite_hover.png">
+        </div>
+        <div class="project-hover-item project-hover-item-left" hidden index=7>
+                <img src="assets\img\img_designforemotion_hover.png">
+        </div>
+    </div>
+
+    <div id="cv">
+        <div id="cv-content">
+            <h1 id="cv-title">i've been places&&done things:</h1>
+
+            <div class="spacer"></div>
+
+            <p>UX/UI designer currently under development. Based in Bucharest&The Hague.</p>
+            <p>overtaking interest in visual arts, design, really old objects and contemporary culture. and contrasts. of course.</p>
+            <p>just tell me “I dare you” and I’ll most probably do it, who doesn’t like a challenge?</p>
+            <p>I haven’t watched MacGyver but I heard I’m resourceful like that.</p>
+
+            <div class="spacer"></div>
+
+            <div class="cv-row">
+                <div class="cv-column-left">
+                    <h2 class="cv-subtitle">education:</h2>
+                </div>
+                <ul class="cv-column-right">
+                    <li class="cv-item">
+                        <p>The Hague University of Applied Sciences</p>
+                        <p class="cv-bold">BSc Communication & Multimedia Design</p>
+                        <p>2019-2022</p>
+                    </li>
+                    <li class="cv-item">
+                        <p>Ion  Mincu University of Architecture and Urbanism</p>
+                        <p class="cv-bold">BA Interior Architecture</p>
+                        <p>2015-2018</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="cv-row">
+                <div class="cv-column-left">
+                    <h2 class="cv-subtitle">work:</h2>
+                </div>
+                <ul class="cv-column-right">
+                    <li class="cv-item">
+                        <p>HelloPrint | Merch.Music</p>
+                        <p class="cv-bold">UX/Graphic Design internship</p>
+                        <p>august 2020 - february 2021</p>
+                    </li>
+                    <li class="cv-item">
+                        <p>Romanian Design Week</p>
+                        <p class="cv-bold">Volunteering/Organising</p>
+                        <p>may 2018</p>
+                    </li>
+                    <li class="cv-item">
+                        <p>National Drama Festival Magic Fest</p>
+                        <p class="cv-bold">Organising/Media Team</p>
+                        <p>2012-2016</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="double-spacer"></div>
+            <div class="double-spacer"></div>
+        </div>
+    </div>
+
+    <div id="inspiration">
+        <img id="inspiration-header" src="assets\img\img_inspiration_header.png">
+        <div class="spacer"></div>
+        <img id="inspiration-body" src="assets\img\img_inspiration_body.png">
+    </div>
+
+    <div id="footer"></div>
 </body>
 
 </html>
