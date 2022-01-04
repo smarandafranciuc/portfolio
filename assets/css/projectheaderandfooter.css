@@ -29,7 +29,7 @@
 }
 .navbar-item > a:hover,
 .navbar-item-current > a > div {
-    color: blue;
+    color: #0A2AF5;
 }
 .navbar-item > a > div {
     padding: 5px 5px;

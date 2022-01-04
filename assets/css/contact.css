@@ -5,6 +5,10 @@
     z-index: 1;
     color: white;
 }
+.navbar-item > a:hover,
+.navbar-item-current > a > div {
+    color: gray;
+}
 
 
 /* contact */
