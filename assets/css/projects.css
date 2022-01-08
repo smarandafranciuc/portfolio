@@ -9,6 +9,9 @@
     font-weight: 500;
     font-style: normal;
 }
+.project-image {
+    width: 100%;
+}
 body {
     background-color: #FFFFFF;
 }
