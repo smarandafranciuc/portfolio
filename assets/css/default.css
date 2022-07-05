@@ -9,6 +9,7 @@
 	outline: 0;
 	padding: 0;
     margin: 0;
+    cursor: url("../img/img_cursor.png"), auto;
 }
 a, a:visited, a:hover, a:active {
     color: inherit;
