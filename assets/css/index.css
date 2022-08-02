@@ -111,10 +111,6 @@
     font-weight: 500;
     font-style: normal;
 }
-/*.project-tile-hover {
-	-webkit-animation: shadow-pop-br 0.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-	        animation: shadow-pop-br 0.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-}*/
 #newstarcontainer {
     width: 50%;
     height: 50%;
@@ -123,7 +119,6 @@
     background-image: url("../img/img_star.png");
     background-repeat: no-repeat;
     background-size: cover;
-    animation: swing ease-in-out 1s infinite alternate;
 }
 #newstartext {
     width: 35%;
@@ -178,6 +173,8 @@
 }
 .projects-header {
     font-size: 30px;
+    font-family: 'Raleway Black', sans-serif;
+    font-weight: 1000;
     color: black;
 }
 
@@ -274,14 +271,5 @@
     }
     to {
       transform: rotate(359deg);
-    }
-}
-
-@keyframes swing {
-    from {
-      transform: rotate(-10deg);
-    }
-    to {
-      transform: rotate(10deg);
     }
 }
