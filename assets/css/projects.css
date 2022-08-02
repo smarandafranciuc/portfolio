@@ -68,6 +68,6 @@ body {
 #fanbace-circle {
     width: 100px;
 }
-#fanbace-link:hover {
+a:hover {
     color: #0A2AF5;
 }
