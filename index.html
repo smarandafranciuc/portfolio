@@ -9,8 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./assets/js/scrolltext.js"></script>
-    <script src="./assets/js/scroll.js"></script>
-    <script src="./assets/js/moveHomeImage.js"></script>
+    <script src="./assets/js/saveCursorPos.js"></script>
 </head>
 </head>
 
@@ -20,7 +19,14 @@
     </div>
 
     <div id="home">
-        <img class="home-image" src="assets/img/img_welcome.png">
+        <div id="video-wrapper">
+            <video class="home-video" autoplay muted loop>
+                <source src="./assets/video/part1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="home-mask">
+            <div id="home-grid-image"></div>
+        </div>
         <div class="double-spacer"></div>
     </div>
 
