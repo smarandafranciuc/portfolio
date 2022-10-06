@@ -9,12 +9,20 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/js/scroll.js"></script>
     <script src="./assets/js/scrolltext.js"></script>
     <script src="./assets/js/saveCursorPos.js"></script>
 </head>
 </head>
 
 <body>
+    <div id="navbar">
+        <a href="#home">Home</a>
+        <a href="#projects">Work</a>
+        <a href="#cv-anchor">aboutme.txt</a>
+        <a href="#contact">Contact</a>
+    </div>
+
     <div id="header">
         <img class="header-logo" src="assets/img/img_logo.png">
     </div>
@@ -108,7 +116,7 @@
                     <img class="project-tile-image" src="assets/img/img_tile_playlist001.png">
                 </a>
             </div>
-            <div class="double-spacer"></div>
+            <div id="cv-anchor" class="double-spacer"></div>
         </div>
     </div>
 
@@ -191,7 +199,7 @@
         <div class="spacer"></div>
     </div>
 
-    <p>
+    <p id="contact">
         <a id="contact-wrapper" href="mailto:smarandafranciuc@gmail.com">
             <img id="contact-image" src="assets/img/img_contact.png">
         </a>
