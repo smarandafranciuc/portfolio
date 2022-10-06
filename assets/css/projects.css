@@ -15,7 +15,7 @@
     width: 100%;
 }
 body {
-    background-color: #FFFFFF;
+    background-color: #F3F3F3;
 }
 .negative-margin {
     margin-top: -200px;
@@ -30,9 +30,21 @@ body {
 #body-smartmakers {
     background-color: #C8D5E8;
 }
-#body-iamthemaker {
+#body-iamthemaker,
+#body-twofour,
+#body-chasingpatterns {
     background-color: #000000;
     color: #F3F3F3;
+}
+
+.project-image-90 {
+    width: 90%;
+    margin: 5px 5%;
+}
+
+.project-image-80 {
+    width: 80%;
+    margin: 5px 10%;
 }
 
 .project-image-67 {
@@ -43,6 +55,11 @@ body {
 .project-image-50 {
     width: 50%;
     margin: 5px 25%;
+}
+
+.project-image-45 {
+    width: 45%;
+    margin: 5px 27.5%;
 }
 
 .project-image-40 {
@@ -63,6 +80,16 @@ body {
 .project-image-10 {
     width: 10%;
     margin: 5px 45%;
+}
+
+.project-image-5 {
+    width: 5%;
+    margin: 5px 47.5%;
+}
+
+.project-image-5 {
+    width: 3%;
+    margin: 5px 48.5%;
 }
 
 #fanbace-circle {
