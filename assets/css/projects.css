@@ -37,6 +37,10 @@ body {
     color: #F3F3F3;
 }
 
+.project-image-blend {
+    mix-blend-mode: multiply;
+}
+
 .project-image-90 {
     width: 90%;
     margin: 5px 5%;
