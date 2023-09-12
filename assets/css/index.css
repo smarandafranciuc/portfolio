@@ -2,6 +2,9 @@
     background: #F3F3F3;
     z-index: 9;
 }
+#header {
+    min-height: unset;
+}
 
 /* home */
 #home {
@@ -217,6 +220,7 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     overflow: hidden;
+    pointer-events: none;
 }
 #cv-content {
     width: 1000px;
