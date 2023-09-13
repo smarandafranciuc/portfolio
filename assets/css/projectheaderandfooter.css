@@ -1,7 +1,7 @@
 /* header */
 #header {
     width: 100%;
-    min-height: 215px;
+    min-height: 165px;
 }
 #project-title {
 	font-size: 80px;
@@ -23,7 +23,7 @@
 
 /* navbar2 */
 #navbar-2 {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 0px;
     width: 100%;
     position: fixed;

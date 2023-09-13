@@ -1,15 +1,17 @@
 /* generic */
+.project-block {
+    height: 40%;
+    width: 100%;
+    top: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
 .project-text {
     width: 700px;
     margin: auto;
     position: relative;
-}
-.project-block {
-    height: 70%;
-    width: 100%;
-    top: 30%;
-    text-align: center;
-    vertical-align: middle;
+    text-align: left;
+    font-weight: 700;
 }
 .project-image {
     width: 100%;
