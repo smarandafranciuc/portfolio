@@ -2,7 +2,7 @@
 .project-block {
     height: 40%;
     width: 100%;
-    top: 20%;
+    top: 25%;
     text-align: center;
     vertical-align: middle;
 }
@@ -38,9 +38,20 @@ body {
     background-color: #000000;
     color: #F3F3F3;
 }
+#block-monzi {
+    background-color: #2A2D68;
+    width: 95%;
+    margin: auto;
+    color: white;
+}
 
 .project-image-blend {
     mix-blend-mode: multiply;
+}
+
+.project-image-95 {
+    width: 95%;
+    margin: 5px 2.5%;
 }
 
 .project-image-90 {
@@ -93,7 +104,7 @@ body {
     margin: 5px 47.5%;
 }
 
-.project-image-5 {
+.project-image-3 {
     width: 3%;
     margin: 5px 48.5%;
 }
