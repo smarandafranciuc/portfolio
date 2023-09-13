@@ -133,8 +133,8 @@
 #newstarcontainer {
     width: 50%;
     height: 50%;
-    margin-left: -15%;
-    margin-top: -5%;
+    margin-left: -17%;
+    margin-top: -11%;
     background-image: url("../img/img_star.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +142,7 @@
 #newstartext {
     width: 35%;
     margin-top: 17%;
-    margin-left: -3%;
+    margin-left: 15%;
     animation: rotation 4s infinite linear;
 }
 
